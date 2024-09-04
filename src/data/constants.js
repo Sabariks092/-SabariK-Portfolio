@@ -318,7 +318,6 @@ export const experiences = [
   },
   {
     id: 2,
-    img: "https://lh3.googleusercontent.com/p/AF1QipM0bATGaKP9BS1dnnOu3mW-q6rkqLJSDA3JPu0H=s680-w680-h510",
     img: "https://i.postimg.cc/9MhzQLQC/three-baboobns.png",
     role: "Frontend Developer Intern",
     company: "Three Baboons Technology",
