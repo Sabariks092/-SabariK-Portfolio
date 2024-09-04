@@ -36,7 +36,7 @@ const NavLogo = styled(LinkR)`
   width: 80%;
   padding: 0 6px;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 25px;
   text-decoration: none;
   color: inherit;
 `;
@@ -139,8 +139,8 @@ const Navbar = () => {
     <Nav>
       <NavbarContainer>
         <NavLogo to="/">
-          <ColorText>&lt;</ColorText>Rishav
-          <div style={{ color: theme.primary }}>/</div>Chanda
+          <ColorText>&lt;</ColorText>Sabari
+          <div style={{ color: theme.primary }}>/</div>K
           <ColorText>&gt;</ColorText>
         </NavLogo>
 
