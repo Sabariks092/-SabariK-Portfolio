@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Sabariks092?tab=repositories",
   resume:
-    "https://drive.google.com/file/d/1txFKZD3LNIXMc329jD9c995AU8LItOXK/view?usp=drive_link",
+    "https://drive.google.com/file/d/1zD9FhNwoD8V5-wZyU40EQToXZI9t18CC/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sabari-shanmuga-priyan-k-225b46254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   // twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/sam.ks_0409/?next=%2F",
@@ -413,7 +413,7 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "ReadyGoShoppy",
+    title: "TeaGo",
     date: "Jul 2024 - Aug 2023",
     description:
       "ReadyGoShoppy is an open-source Node ecommerce platform that helps developers developing their e-commerce store. EverShop is a flexible platform built on a module system, with extensible options for both the admin panel and the front store.",
