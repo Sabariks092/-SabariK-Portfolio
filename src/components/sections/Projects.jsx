@@ -85,13 +85,13 @@ const Desc = styled.div`
 //   background: ${({ theme }) => theme.primary};
 // `;
 
-// const CardContainer = styled.div`
-//   display: flex;
-//   justify-content: center;
-//   align-items: center;
-//   gap: 28px;
-//   flex-wrap: wrap;
-// `;
+const CardContainer = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 28px;
+  flex-wrap: wrap;
+`;
 
 const Projects = ({ openModal, setOpenModal }) => {
   // const [toggle, setToggle] = useState("all");
@@ -136,14 +136,14 @@ const Projects = ({ openModal, setOpenModal }) => {
           </ToggleButton>
         </ToggleButtonGroup> */}
         <CardContainer>
-          {toggle === "all" &&
+          {/* {toggle === "all" &&
             projects.map((project) => (
               <ProjectCard
                 project={project}
                 openModal={openModal}
                 setOpenModal={setOpenModal}
               />
-            ))}
+            ))} */}
           {projects
             .filter((item) => item.category === toggle)
             .map((project) => (
