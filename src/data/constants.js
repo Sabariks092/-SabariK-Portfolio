@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Sabariks092?tab=repositories",
   resume:
-    "https://drive.google.com/file/d/1zD9FhNwoD8V5-wZyU40EQToXZI9t18CC/view?usp=sharing",
+    "https://drive.google.com/file/d/1zKJ3BdoVsJfsmSOH_agMGoLzqeetRFH6/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sabari-shanmuga-priyan-k-225b46254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   // twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/sam.ks_0409/?next=%2F",
@@ -275,26 +275,26 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
-    id: 0,
-    img: "https://lh3.googleusercontent.com/p/AF1QipM0bATGaKP9BS1dnnOu3mW-q6rkqLJSDA3JPu0H=s680-w680-h510",
-    role: "Python Developer Intern",
-    company: "The Mind IT Solution",
-    date: "June 2021 - Oct 2021",
-    desc: "• Identified, analyzed and interpreted trends or patterns in complex data sets by finding correlation and visualization with charts Utilized various professional statistical techniques and maintained large databases to collect and analyze data from partners and customers. Cleaned up and backed up data to maintain data integrity during extraction, manipulation and processing. Extracted, loaded and reconciled large amounts of data across system platforms and sources to validate user-centric scenarios",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+  // {
+  //   id: 0,
+  //   img: "https://lh3.googleusercontent.com/p/AF1QipM0bATGaKP9BS1dnnOu3mW-q6rkqLJSDA3JPu0H=s680-w680-h510",
+  //   role: "Python Developer Intern",
+  //   company: "The Mind IT Solution",
+  //   date: "June 2021 - Oct 2021",
+  //   desc: "• Identified, analyzed and interpreted trends or patterns in complex data sets by finding correlation and visualization with charts Utilized various professional statistical techniques and maintained large databases to collect and analyze data from partners and customers. Cleaned up and backed up data to maintain data integrity during extraction, manipulation and processing. Extracted, loaded and reconciled large amounts of data across system platforms and sources to validate user-centric scenarios",
+  //   skills: [
+  //     "Android",
+  //     "Java",
+  //     "Kotlin",
+  //     "XML",
+  //     "Node Js",
+  //     "Cloud Firestore",
+  //     "Firebase",
+  //     "Figma",
+  //   ],
+  //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
 
-  },
+  // },
   {
     id: 1,
     img: "https://www.tnskill.tn.gov.in/wp-content/uploads/2019/09/tnsdc-logo2.png",
@@ -413,23 +413,23 @@ export const education = [
 export const projects = [
   {
     id: 11,
-    title: "TeaGo",
-    date: "Jul 2024 - Aug 2023",
+    title: "InstaWeather",
+    date: "Sep 2024 - Aug 2024",
     description:
-      "ReadyGoShoppy is an open-source Node ecommerce platform that helps developers developing their e-commerce store. EverShop is a flexible platform built on a module system, with extensible options for both the admin panel and the front store.",
+      "User-Friendly Interface: A responsive UI built with React and Bootstrap allows easy navigation and search for weather updates.• Dynamic Data: Node.js backend fetches real-time weather information from a reliable API, providing current conditions and forecasts.• Custom Styling and Features: Enhanced with CSS, the app includesfeatures like location tracking and favorite city storage for apersonalized experience.",
     image:
-      "https://github.com/rishavchanda/DecisionHub/raw/master/assets/testRule.jpg",
+      "https://i.postimg.cc/CxbKXzDL/Screenshot-2024-11-02-164527.png",
     tags: [
       "React Js",
-      "PostgressSQL",
       "Node Js",
       "Express Js",
-      "Redux",
-      "React Flow",
+      "BootStrap",
+      "Html5",
+      "Css3",
     ],
     category: "web app",
-    github: "https://github.com/rishavchanda/DecisionHub",
-    webapp: "https://decisionhub.netlify.app/",
+    github: "https://github.com/Sabariks092/InstaWeather",
+    webapp: "https://1instaweather.netlify.app/",
   },
   // {
   //   id: 9,

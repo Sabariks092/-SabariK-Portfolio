@@ -220,8 +220,8 @@ const Hero = () => {
     <div id="About">
       <HeroContainer>
         <HeroBg>
-          <StarCanvas />
-          <HeroBgAnimation />
+          {/* <StarCanvas />
+          <HeroBgAnimation /> */}
         </HeroBg>
 
         <motion.div {...headContainerAnimation}>
