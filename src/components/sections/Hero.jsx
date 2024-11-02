@@ -3,7 +3,7 @@ import styled from "styled-components";
 import { Bio } from "../../data/constants";
 import Typewriter from "typewriter-effect";
 import HeroImg from "../../images/kabilan.jpeg";
-import HeroBgAnimation from "../HeroBgAnimation";
+// import HeroBgAnimation from "../HeroBgAnimation";
 import { Tilt } from "react-tilt";
 import { motion } from "framer-motion";
 import {
@@ -11,7 +11,7 @@ import {
   headContentAnimation,
   headTextAnimation,
 } from "../../utils/motion";
-import StarCanvas from "../canvas/Stars";
+// import StarCanvas from "../canvas/Stars";
 
 const HeroContainer = styled.div`
   display: flex;
