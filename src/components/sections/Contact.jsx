@@ -154,7 +154,7 @@ const Contact = () => {
         <EarthCanvas />
         <Title>Contact</Title>
         <Desc>
-          Feel free to reach out to me for any questions or opportunities!
+          Feel free to reach out to me for any Questions or opportunities!
         </Desc>
         <ContactForm style={{justifyItems:"center"}} onSubmit={handleSubmit}>
           <ContactTitle> </ContactTitle>
