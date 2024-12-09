@@ -55,7 +55,7 @@ const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   background-color: rgba(17, 25, 40, 0.83);
   border: 1px solid rgba(255, 255, 255, 0.125);
   padding: 32px;
@@ -70,32 +70,32 @@ const ContactTitle = styled.div`
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
 `;
-const ContactInput = styled.input`
-  flex: 1;
-  background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary + 50};
-  outline: none;
-  font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
-  border-radius: 12px;
-  padding: 12px 16px;
-  &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
-  }
-`;
-const ContactInputMessage = styled.textarea`
-  flex: 1;
-  background-color: transparent;
-  border: 1px solid ${({ theme }) => theme.text_secondary + 50};
-  outline: none;
-  font-size: 18px;
-  color: ${({ theme }) => theme.text_primary};
-  border-radius: 12px;
-  padding: 12px 16px;
-  &:focus {
-    border: 1px solid ${({ theme }) => theme.primary};
-  }
-`;
+// const ContactInput = styled.input`
+//   flex: 1;
+//   background-color: transparent;
+//   border: 1px solid ${({ theme }) => theme.text_secondary + 50};
+//   outline: none;
+//   font-size: 18px;
+//   color: ${({ theme }) => theme.text_primary};
+//   border-radius: 12px;
+//   padding: 12px 16px;
+//   &:focus {
+//     border: 1px solid ${({ theme }) => theme.primary};
+//   }
+// `;
+// const ContactInputMessage = styled.textarea`
+//   flex: 1;
+//   background-color: transparent;
+//   border: 1px solid ${({ theme }) => theme.text_secondary + 50};
+//   outline: none;
+//   font-size: 18px;
+//   color: ${({ theme }) => theme.text_primary};
+//   border-radius: 12px;
+//   padding: 12px 16px;
+//   &:focus {
+//     border: 1px solid ${({ theme }) => theme.primary};
+//   }
+// `;
 const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
@@ -149,20 +149,24 @@ const Contact = () => {
   };
 
   return (
-    <Container>
+    <Container style={{justifyContent:"center"}}>
       <Wrapper>
         <EarthCanvas />
         <Title>Contact</Title>
         <Desc>
           Feel free to reach out to me for any questions or opportunities!
         </Desc>
-        <ContactForm onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
-          <ContactButton type="submit" value="Send" />
+        <ContactForm style={{justifyItems:"center"}} onSubmit={handleSubmit}>
+          <ContactTitle> </ContactTitle>
+          <ContactButton type="button"  style={{width:"50%",cursor:"pointer"}} onClick={(e) => {
+            e.preventDefault();
+            window.location.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=sabariks092@gmail.com&su=SUBJECT&body=BODY';
+          }} value=" 📧 Email Me " />
+          <ContactButton type="button" style={{width:"50%",cursor:"pointer"}} onClick={(e) => {
+            e.preventDefault();
+            window.location.href = 'https://wa.me/+918778377449?text=Hi+Sabari+!';
+          }} value="📞 Whatsapp me " />
+
         </ContactForm>
       </Wrapper>
     </Container>
