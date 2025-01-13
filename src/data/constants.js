@@ -1,7 +1,7 @@
 export const Bio = {
   name: "Sabari Shanmuga Priyan K",
   roles: [
-    "Mern Stack Developer",
+    "Web Developer",
     // "Android Developer",
     // "UI/UX Designer",
     // "Programmer",
