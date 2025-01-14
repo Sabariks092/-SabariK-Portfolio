@@ -156,16 +156,16 @@ const Contact = () => {
         <Desc>
           Feel free to reach out to me for any Questions or opportunities!
         </Desc>
-        <ContactForm style={{justifyItems:"center"}} onSubmit={handleSubmit}>
+        <ContactForm style={{justifyContent:"center"}} onSubmit={handleSubmit}>
           <ContactTitle> </ContactTitle>
           <ContactButton type="button"  style={{width:"50%",cursor:"pointer"}} onClick={(e) => {
             e.preventDefault();
             window.location.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=sabariks092@gmail.com&su=SUBJECT&body=BODY';
-          }} value=" 📧 Email Me " />
+          }} value=" 📧 Email" />
           <ContactButton type="button" style={{width:"50%",cursor:"pointer"}} onClick={(e) => {
             e.preventDefault();
             window.location.href = 'https://wa.me/+918778377449?text=Hi+Sabari+!';
-          }} value="📞 Whatsapp me " />
+          }} value="📞 Whatsapp" />
 
         </ContactForm>
       </Wrapper>

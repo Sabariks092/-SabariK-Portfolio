@@ -1,8 +1,8 @@
 export const Bio = {
   name: "Sabari Shanmuga Priyan K",
   roles: [
+    "Web Developer",
     "Mern Stack Developer",
-    // "Android Developer",
     // "UI/UX Designer",
     // "Programmer",
   ],
@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Sabariks092?tab=repositories",
   resume:
-    "https://drive.google.com/file/d/1zKJ3BdoVsJfsmSOH_agMGoLzqeetRFH6/view?usp=sharing",
+    "https://drive.google.com/file/d/1zmkq6tZ08Bff097d1HYRJzS74vdDhqr8/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/sabari-shanmuga-priyan-k-225b46254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   // twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/sam.ks_0409/?next=%2F",
@@ -275,26 +275,23 @@ export const skills = [
 ];
 
 export const experiences = [
-  // {
-  //   id: 0,
-  //   img: "https://lh3.googleusercontent.com/p/AF1QipM0bATGaKP9BS1dnnOu3mW-q6rkqLJSDA3JPu0H=s680-w680-h510",
-  //   role: "Python Developer Intern",
-  //   company: "The Mind IT Solution",
-  //   date: "June 2021 - Oct 2021",
-  //   desc: "• Identified, analyzed and interpreted trends or patterns in complex data sets by finding correlation and visualization with charts Utilized various professional statistical techniques and maintained large databases to collect and analyze data from partners and customers. Cleaned up and backed up data to maintain data integrity during extraction, manipulation and processing. Extracted, loaded and reconciled large amounts of data across system platforms and sources to validate user-centric scenarios",
-  //   skills: [
-  //     "Android",
-  //     "Java",
-  //     "Kotlin",
-  //     "XML",
-  //     "Node Js",
-  //     "Cloud Firestore",
-  //     "Firebase",
-  //     "Figma",
-  //   ],
-  //   doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+  {
+    id: 0,
+    img: "https://i.postimg.cc/4xyL7B5S/1705554716691.jpg",
+    role: "Full Stack Developer Intern",
+    company: "Smarweb Technologies",
+    date: "Nov 2024 - Jan 2025",
+    desc: "During my internship, I developed a full-stack AI-powered application designed to analyze documents efficiently. This project utilized advanced AI models to extract, classify, and summarize data from various document formats, providing accurate insights and streamlined data processing for users.",
+    skills: [
+      "Node Js",
+      "Express Js",
+      "React Js",
+      "Redux ",
+      "Bootstrap",
+      "JavaScript"
+    ],
 
-  // },
+  },
   {
     id: 1,
     img: "https://www.tnskill.tn.gov.in/wp-content/uploads/2019/09/tnsdc-logo2.png",
@@ -411,6 +408,27 @@ export const education = [
 ];
 
 export const projects = [
+  {
+      id: 9,
+      title: "Imagenation",
+      date: "Dec 2024 - Jan 2025",
+      description:
+      "Imagenation is an innovative AI-powered image generator application designed to create visually stunning and highly customizable digital artwork. By leveraging cutting-edge deep learning models, this project empowers users to transform their ideas and prompts into breathtaking visuals, ranging from realistic scenes to abstract masterpieces",      
+      image:
+        "https://i.postimg.cc/SQgHnFr4/Screenshot-2025-01-14-201809.png",
+      tags: [
+        "React Js",
+        "MongoDb",
+        "Node Js",
+        "Express Js",
+        "Bootstrap",
+        "Axios"
+      ],
+      category: "web app",
+      github: "https://github.com/Sabariks092/1Imagenation",
+      webapp: "https://1imagenation.netlify.app/",
+    },
+
   {
     id: 11,
     title: "InstaWeather",
