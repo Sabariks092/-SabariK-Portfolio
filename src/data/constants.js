@@ -10,7 +10,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/Sabariks092?tab=repositories",
   resume:
-    "https://drive.google.com/file/d/1zmkq6tZ08Bff097d1HYRJzS74vdDhqr8/view?usp=sharing",
+    "https://drive.google.com/file/d/1_oBLyctmQVrmzOZr5JZMHUSHd2B5z61a/view?usp=drive_link",
   linkedin: "https://www.linkedin.com/in/sabari-shanmuga-priyan-k-225b46254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
   // twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/sam.ks_0409/?next=%2F",
@@ -408,8 +408,10 @@ export const education = [
 ];
 
 export const projects = [
-  {
-      id: 9,
+  
+    
+    {
+      id: 8,
       title: "Imagenation",
       date: "Dec 2024 - Jan 2025",
       description:
@@ -427,6 +429,26 @@ export const projects = [
       category: "web app",
       github: "https://github.com/Sabariks092/1Imagenation",
       webapp: "https://1imagenation.netlify.app/",
+    },
+    {
+      id: 9,
+      title: "WhatsCookin'",
+      date: "Feb 2025",
+      description:
+      "WhatsCookin' is an innovative recipe finder application designed to make meal planning and cooking easier and more exciting. With over 300+ recipes to choose from, this app helps users discover a wide variety of dishes based on their preferences, dietary restrictions, and available ingredients. Whether you’re craving a quick weeknight dinner or looking to try a new culinary adventure, WhatsCookin' transforms your kitchen ingredients and ideas into delicious, personalized meal suggestions. From simple comfort food to gourmet dishes, WhatsCookin' helps you cook up something amazing every time!",      
+      image:
+        "https://i.postimg.cc/jSj0ZsjD/Screenshot-2025-02-10-190537.png",
+      tags: [
+        "React Js",
+        "Node Js",
+        "Html5",
+        "CSS",
+        "Bootstrap",
+        "Axios"
+      ],
+      category: "web app",
+      github: "https://github.com/Sabariks092/WhatsCookin-",
+      webapp: "https://1whatscookin.netlify.app/",
     },
 
   {
