@@ -160,8 +160,8 @@ const Contact = () => {
           <ContactTitle> </ContactTitle>
           <ContactButton type="button"  style={{width:"50%",cursor:"pointer"}} onClick={(e) => {
             e.preventDefault();
-            window.location.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=sabariks092@gmail.com&su=SUBJECT&body=BODY';
-          }} value=" 📧 Email" />
+            window.location.href = 'tel:+918610278310';
+          }} value=" Call me" />
           <ContactButton type="button" style={{width:"50%",cursor:"pointer"}} onClick={(e) => {
             e.preventDefault();
             window.location.href = 'https://wa.me/+918778377449?text=Hi+Sabari+!';
