@@ -160,7 +160,7 @@ const Contact = () => {
           <ContactTitle> </ContactTitle>
           <ContactButton type="button"  style={{width:"50%",cursor:"pointer"}} onClick={(e) => {
             e.preventDefault();
-            window.location.href = 'tel:+918610278310';
+            window.location.href = 'tel:+918778377449';
           }} value=" Call me" />
           <ContactButton type="button" style={{width:"50%",cursor:"pointer"}} onClick={(e) => {
             e.preventDefault();
